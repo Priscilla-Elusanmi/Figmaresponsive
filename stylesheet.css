@@ -1,0 +1,38 @@
+.nav-open2 .top-navigation{
+    transform: translateX(0);
+}
+@media screen and (max-width: 1110px){
+    .footer{
+        padding-top: 500px;
+    }
+}
+
+@media screen and (max-width: 1110px){
+    .footer{
+        padding-top: 500px;
+    }
+}
+
+@media screen and (max-width: 412px){
+    .container-nav{
+        padding-bottom: 60px;
+    }
+    .footer{
+        padding-top: 500px;
+    }
+    .nav-left{
+        padding-right: 100px;
+    }
+    .nav-left p {
+        /* width: 719px;
+        height: 600px; */
+        /* left: 148px; */
+        font-family: 'Lemonada';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 20px;
+        font-style:normal;
+        line-height: 20px;
+        /* text-align: center; */
+    }
+}

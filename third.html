@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top-navigation">
+            <div class="top-navigation-left">
+                <img src="./ASSETS/eREADSlogo.png" alt="">
+            </div>
+            <ul class="top-navigation-link">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="sec.html">ABOUT</a></li>
+                <li><a href="third.html">REGISTRATION</a></li>
+                <li><a href="fourth.html">E-BOOKS</a></li>
+            </ul>
+            <div class="top-navigation-right">
+                
+                    <form class="example">
+                        <button id="btn2" type="submit"><img id="search2" src="./ASSETS/search.png" alt=""></button>
+                        <input type="text" id="Search" name="Search" placeholder="SEARCH e-BOOKS">
+                    </form>
+                
+                    <a href="fifth.html"><img id="profile" src="./ASSETS/profileIcon.png" alt=""></a>
+
+                    
+                
+                
+
+            </div>
+        </div>
+        <img id="menu2" src="ASSETS/menu.png" alt="" onclick="togglemenu()">
+
+        <div class="nav-section">
+
+            <div class="nav-sec-one">
+                
+                <p id="one">Welcome to eREADS </p>
+
+                <p id="two">Sign Up</p>
+
+                <p id="three">What's your email?</p>
+
+                <div>
+
+                    <label for="email"></label>
+
+                    <input type="email" id="email" name="email" placeholder="Email address">
+                </div>
+
+                <br>
+                <br>
+                <br>
+
+                <p id="three">Create a password.</p>
+
+                <div>
+
+                    <label for="password"></label>
+                    <input type="password" id="password" name="password" placeholder="Enter password">
+
+                </div>
+
+                <br>
+                <br>
+                <br>
+
+                <p id="three">Confirm your password.</p>
+
+                <div>
+
+                                       
+                <label for="confirm"></label>
+                <input type="password" id="confirm" name="confirm" placeholder="Enter password again">
+
+                </div>
+
+
+                <br>
+                <br>
+                <br>
+
+                <p id="three">What should we call you?</p>
+
+                <label for="name"></label>
+                <input type="text" id="name" name="name" placeholder="Enter your profile name">
+
+                <br>
+                <br>
+
+                <p id="three">this name will appear on your profile</p>
+
+
+                <br>
+
+                <p id="three">By clicking “Let's get started” you are agreeing to our <span> Terms and Conditions.</span></p>
+                
+                <br>
+                <br>
+
+                <a href="fifth.html"><button id="prof">Create Profile</button></a>
+
+
+
+
+                
+
+            </div>
+            <div class="nav-sec-two">
+                <img src="./ASSETS/RedMugIpadImage.png" alt="">
+
+            </div>
+        </div>
+
+        <div class="footer">
+          
+            <p>Privacy | Copyright | Term of Use & Licenses | Authors | Publishers </p>
+         
+        </div>
+    </div> 
+
+    <script>
+        var menuList = document.querySelector('.top-navigation-left');
+        var display = menuList.style.display;
+
+        function togglemenu(){
+            document.body.classList.toggle("nav-open")
+        }
+    </script>
+
+</body>
+</html>
